@@ -1,0 +1,77 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*  (min-width:1200px)+++ */
+@media only screen and (min-width:1200px){
+ }
+/* (min-width:992px) (max-width:1199px) */
+@media only screen and (max-width:1199px){
+	.et-ht-cntct-details{text-align: center;}
+	.et-social-linked {float: none !important; text-align: center;}
+	.et-blog-ftr .et-readmore{margin-right: 40px;}
+	.et-blog-col{margin-bottom: 30px;}
+	.et-twitter-feed-widget, .foter-logo, .et-flickr-widget {margin-bottom: 50px;}
+}
+/* (min-width:768px) (max-width:991px) */
+@media only screen and (max-width:991px){
+	.et-blog-ftr .et-date {padding-right: 5px !important;}
+	.service-carousel-et-one .owl-prev i, .owl-next i {display: none;}
+	.et-service-column{margin-bottom: 50px;}
+	.et-srvc-ovrly-icon{top: 20%;}
+	.et-project-column{margin-bottom: 20px;}
+	.et-team-col{margin-bottom: 30px;}
+	.et-cllback-srbc-inner, .et-fact-counterd{margin-bottom: 30px;}
+	.et-welcome-half{margin-bottom: 50px;}
+	.et-pricing-table{margin-bottom: 40px;}
+	.et-cllback-srbc-inner.et-right{border: none;}
+	.et-mailsubscriber-ttl{text-align: center;}
+	.et-mailsubscriber-bg{top: -100px;}
+	.et-mailsubscriber-bg button{margin-bottom: 10px;}
+	.et-service-column3 .et-srvc-sntnt > p{padding-left: 16%;}
+	h3{font-size: 90%}
+	.isotope-filter li a {margin-bottom: 15px;}
+	.isotope-gallery.et-grid-four-item .isotope-item{width: 33%;}
+	.et-faq-box{margin-top: 30px;}
+	.et-extra-etfz{font-size: 100px;line-height: 100px;}
+	.et-maintanance-ttl{font-size: 36px;}
+
+}
+/* (min-width:480px) (max-width:767px) */
+@media only screen and (max-width:767px){
+	.img-fluid{width: 100% !important;}
+	.navbar-default .navbar-toggle{margin-top:15px;border-radius:0px;}
+	.foter-logo {margin-bottom: 30px;margin-top: 30px;}
+	.et-clients {text-align: center;}
+	.et-team-pdicons {left: 20px; top: 0;}
+	.et-srvc-ovrly-icon{top: 40%;}
+	.et-prcbgc{left: -116px;right: -116px;}
+	h3{font-size: 80%}
+	.isotope-gallery.et-grid-four-item .isotope-item,.isotope-gallery.et-grid-three-item .isotope-item{width: 50%;}
+	.et-title-faq,.et-title-faq2{display: none;}
+
+}
+/* (min-width:361px) (max-width:479px) */
+@media only screen and (max-width:479px){
+	.et-welcome-estimate, .et-welcome-price{left: 0;}
+	.et-extrabg-dgn {padding-left: 20px;}
+	.et-welcome-support{top: 0;}
+	.et-welcome-estimate{top: 32%;}
+	.et-welcome-price{bottom: 0;}
+	.list-inline.et-intro-sec-cntnt {position: relative;margin-bottom: 30px;}
+	.isotope-gallery.et-grid-four-item .isotope-item,.isotope-gallery.et-grid-three-item .isotope-item{width: 100%;}
+}
+/* (min-width:321px) (max-width:360px) */
+@media only screen and (max-width:360px){
+	.menuzord-brand img {max-height: 29px;}
+}
+@media only screen and (max-width:320px){
+	.menuzord-brand img {max-height: 27px;}
+}
